@@ -1,0 +1,31 @@
+[project]
+name = "nonebot_plugin_event_helper"
+version = "0.0.1"
+description = "This is a plugin that can remind events"
+authors = [
+  { name = "bananaxiao2333", email = "banana.xiao@qq.com" },
+]
+readme = "README.md"
+keywords = ["nonebot", "reminder", "qqbot"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Plugins",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+license = "MIT"
+
+dependencies = [
+    "aiohttp~=3.11",
+    "nonebot2~=2.3",
+    "nonebot-plugin-waiter~=0.8.1",
+]
+
+[project.urls]
+homepage = "https://github.com/bananaxiao2333/nonebot-plugin-event-helper"
+repository = "https://github.com/bananaxiao2333/nonebot-plugin-event-helper"
+changelog = "https://github.com/bananaxiao2333/nonebot-plugin-event-helper/releases"
+issue = "https://github.com/bananaxiao2333/nonebot-plugin-event-helper/issues"
